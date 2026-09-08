@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated ML artifacts
+models/*.joblib
+models/*.pkl
+reports/*.csv
+reports/*.json
+reports/*.png
+
+# Local environment files
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
